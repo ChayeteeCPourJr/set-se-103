@@ -1,2 +1,2 @@
-printf "#!/bin/bash\ngrep -A 3 \"root\" /etc/passwd\n" > 16-whatsnext
-chmod u+x 16-whatsnext
+#!/bin/bash$
+grep -A 3 "root" /etc/passwd$
